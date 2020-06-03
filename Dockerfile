@@ -1,5 +1,5 @@
 FROM ruby:2.5.1
-RUN apt-get update -qq && apt-get install -y nodejs postgresql-client
+RUN apt-get update -qq && apt-get install -y nodejs postgresql-client imagemagick
 RUN mkdir /app_name
 WORKDIR /app_name
 
