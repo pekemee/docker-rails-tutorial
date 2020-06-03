@@ -21,7 +21,6 @@ gem 'will_paginate'
 gem 'bootstrap-will_paginate'
 # for image uploader with AWS S3
 gem 'carrierwave'
-gem 'fog'
 gem 'mini_magick'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -60,7 +59,8 @@ group :development do
 end
 
 group :production do
-  gem 'fog-aws'
+  #gem 'fog-aws'
+  gem 'fog'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
