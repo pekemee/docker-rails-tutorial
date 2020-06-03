@@ -50,7 +50,7 @@ end
 
   def check_expiration
     if @user.password_reset_expired?
-      flash[:danger] = "Password reset has expired."
+      flash[:danger] = "リンクの有効期限が切れています"
       redirect_to new_password_reset_url
     end
   end

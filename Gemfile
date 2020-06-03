@@ -19,7 +19,9 @@ gem 'bcrypt',         '3.1.12'
 gem 'jquery-rails'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
+# for image uploader with AWS S3
 gem 'carrierwave'
+gem 'fog'
 gem 'mini_magick'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
