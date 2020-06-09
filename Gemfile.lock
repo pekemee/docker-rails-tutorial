@@ -80,58 +80,7 @@ GEM
     erubi (1.9.0)
     excon (0.73.0)
     execjs (2.7.0)
-<<<<<<< HEAD
-    ffi (1.12.2)
-=======
-    faraday (0.17.3)
-      multipart-post (>= 1.2, < 3)
     ffi (1.13.0)
-    fission (0.5.0)
-      CFPropertyList (~> 2.2)
-    fog (2.2.0)
-      fog-aliyun (>= 0.1.0)
-      fog-atmos
-      fog-aws (>= 0.6.0)
-      fog-brightbox (~> 0.4)
-      fog-cloudatcost (~> 0.4)
-      fog-cloudstack (~> 0.1.0)
-      fog-core (~> 2.1)
-      fog-digitalocean (>= 0.3.0)
-      fog-dnsimple (~> 2.1)
-      fog-dynect (~> 0.0.2)
-      fog-ecloud (~> 0.1)
-      fog-google (~> 1.0)
-      fog-internet-archive
-      fog-json
-      fog-local
-      fog-openstack
-      fog-ovirt
-      fog-powerdns (>= 0.1.1)
-      fog-profitbricks
-      fog-rackspace
-      fog-radosgw (>= 0.0.2)
-      fog-riakcs
-      fog-sakuracloud (>= 0.0.4)
-      fog-serverlove
-      fog-softlayer
-      fog-storm_on_demand
-      fog-terremark
-      fog-vmfusion
-      fog-voxel
-      fog-vsphere (>= 0.4.0)
-      fog-xenserver
-      fog-xml (~> 0.1.1)
-      ipaddress (~> 0.5)
-      json (~> 2.0)
-    fog-aliyun (0.3.13)
-      fog-core
-      fog-json
-      ipaddress (~> 0.8)
-      xml-simple (~> 1.1)
-    fog-atmos (0.1.0)
-      fog-core
-      fog-xml
->>>>>>> fa0918e3cb4d995515f76a11280a657f60f1f314
     fog-aws (3.6.5)
       fog-core (~> 2.1)
       fog-json (~> 1.1)
@@ -151,7 +100,7 @@ GEM
     formatador (0.2.5)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
-    i18n (1.8.2)
+    i18n (1.8.3)
       concurrent-ruby (~> 1.0)
     image_processing (1.11.0)
       mini_magick (>= 4.9.5, < 5)
