@@ -6,6 +6,4 @@ RSpec.describe User, type: :model do
     user.valid?
     expect(user.errors[:name]).to include("can't be blank")
   end
-
-
 end
